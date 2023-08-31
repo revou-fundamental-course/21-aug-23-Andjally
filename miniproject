@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/style.css"
+    </head>
+
+       <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+    
+
+    <table style="width: 100%">
+        <tr style="height: 50px;
+
+    <body>
+        
+        <td> 
+            <nav class="nav-wrapper">
+            
+            <img class="logo" src="logo revou.jpg"/>
+           
+                <button>home</button>
+                <button>our profile</button>
+                <button>achievemen</button>
+                <button>massage us</button>
+            </nav>
+        </td>
+
+    
+    <tr style="height: 300px;">
+        <td>
+            <h1>hi <span id="name">, <span>Welcome to my web!</h1>
+                <p>Ini adalah Website Latihan Pertama</p>
+        </td>
+    
+      </tr>
+      <tr style="height: 150px;">
+        <td>
+            <h1>Our facilities</h1>
+        </td>
+      <tr>
+
+        <td>
+            <h1>Message Us</h1>
+            <form action="/action_page.php">
+                <label for="fname">Nama:</label>
+                <input type="text" id="fname" value="">
+            </form>
+            <form>
+                <label for="Tanggal Lahir">Tanggal lahir:</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </form>
+            <form>
+                <p>Jenis Kelamin:
+                    <input type="radio" id="html" name="Jenis Kelamin" value="Laki-laki">
+                   <label for="html">Laki-laki</label>
+                   <input type="radio" id="css" name="Jenis Kelamin" value="Perempuan">
+                   <label for="css">Perempuan</label>
+                </p>
+                <label for="fname">Pesan:</label>
+                <input type="text" id="fname" value=""><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </tr>
+        <tr style="height: 50px;">
+          <td>Created by Andjally</td>
+          
+        </tr>
+      </tr>
+    </table>
+    </body>
+</html>
